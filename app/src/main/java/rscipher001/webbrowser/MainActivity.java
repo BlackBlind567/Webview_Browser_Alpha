@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings myWebSettings = myWebView.getSettings();
         myWebSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.whatismybrowser.com/detect/are-third-party-cookies-enabled");
-//        myWebView.loadUrl("https://www.google.co.in/");
+//        myWebView.loadUrl("https://www.whatismybrowser.com/detect/are-third-party-cookies-enabled");
+        myWebView.loadUrl("https://www.google.co.in/");
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
