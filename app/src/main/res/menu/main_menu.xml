@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
     <item
-        android:id="@+id/refresh"
-        android:title="Refresh"
-        android:icon="@drawable/refresh"
-        />
+        android:id="@+id/action_new_tab"
+        android:title="@string/new_tab"/>
+    <item
+        android:id="@+id/action_incognito"
+        android:title="@string/new_incognito_tab"/>
+    <item
+        android:id="@+id/action_bookmarks"
+        android:title="@string/bookmarks"/>
+    <item
+        android:id="@+id/action_add_to_homescreen"
+        android:title="@string/add_to_home_screen" />
+    <item
+        android:id="@+id/action_add_bookmark"
+        android:title="@string/add_bookmark"/>
+    <item
+        android:id="@+id/action_history"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/action_downloads"
+        android:title="@string/downloads"/>
+
+    <item
+        android:id="@+id/action_find"
+        android:title="@string/find_in_page"/>
+    <item
+        android:id="@+id/action_copy"
+        android:title="@string/copy_link"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/action_reading_mode"
+        android:title="@string/reader_mode"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"/>
 
 </menu>

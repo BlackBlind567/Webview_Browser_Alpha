@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Web Browser</string>
+    <string name="search_here">Search here</string>
+    <string name="go">Go</string>
+    <string name="refresh">Refresh</string>
+    <string name="new_tab">New Tab</string>
+    <string name="new_incognito_tab">New Incognito Tab</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="add_to_home_screen">Add to home screen</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="history">History</string>
+    <string name="downloads">Downloads</string>
+    <string name="find_in_page">Find in page</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share">Share</string>
+    <string name="reader_mode">Reader mode</string>
+    <string name="settings">Settings</string>
 </resources>
